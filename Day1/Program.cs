@@ -1,4 +1,6 @@
-﻿namespace Day1
+﻿using System.Runtime.CompilerServices;
+
+namespace Day1
 {
     internal class Program
     {
@@ -21,15 +23,18 @@
             //Console.WriteLine("you entered " + userInput);
 
 
-            Console.WriteLine("Enter num1");
-            int num1 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Enter num1");
+            ////int num1 = Convert.ToInt32(Console.ReadLine());
+            //int num1 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Enter num2");
-            int num2 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Enter num2");
+            ////int num2 = Convert.ToInt32(Console.ReadLine());
+            //int num2 = int.Parse(Console.ReadLine());
 
-            int sum = num1 + num2;
+            //int sum = num1 + num2;
 
-            Console.WriteLine("The sum is " + sum);
+            ////Console.WriteLine("The sum is of " + num1 + "and " + num2 + "is " + sum);
+            //Console.WriteLine($"The sum is of {num1} and {num2} is {sum}");
 
             //Value type -> Stores actual data
             //eg -> int, string, null, struct, enum
@@ -37,6 +42,44 @@
 
             //Reference Type
             //It stores the memory address
+
+
+            //Console.WriteLine("Enter num1");
+
+            //double num1 = double.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter num2");
+
+            //double num2 = double.Parse(Console.ReadLine());
+
+            //double sum = num1 + num2;
+
+            ////Console.WriteLine("The sum is of " + num1 + "and " + num2 + "is " + sum);
+            //Console.WriteLine($"The sum is of {num1} and {num2} is {sum}");
+
+
+            //Implicit conversion
+
+            //int num = 10;
+            //double num2 = num;
+
+            //double num3 = 10.5;
+            //int num4 = (int)num3; //Explicit conversion
+
+            //Implicitly typed variables
+
+            //var myNum = 10;
+            //var myName = "Jannik";
+
+            //int num1 = 53;
+            //int num2 = 10;
+
+            //Console.WriteLine(num1%num2);
+
+            //Console.WriteLine("the number is {0} and seconf number is {1}" ,  num1, num2);
+
+            string s1 = "Hello my name is \"mayasir\"";
+            Console.WriteLine(s1);
 
         }
     }
