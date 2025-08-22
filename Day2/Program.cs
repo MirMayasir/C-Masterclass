@@ -4,7 +4,19 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            bool isRain = true;
+
+            bool hasAmbrella = false;
+
+            if(isRain && hasAmbrella )
+            {
+                Console.WriteLine("protected");
+            }
+
+            else
+            {
+                Console.WriteLine("not protected");
+            }
         }
     }
 }
