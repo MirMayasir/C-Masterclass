@@ -4,19 +4,32 @@
     {
         static void Main(string[] args)
         {
-            bool isRain = true;
+            //bool isRain = true;
 
-            bool hasAmbrella = false;
+            //bool hasAmbrella = false;
 
-            if(isRain && hasAmbrella )
+            //if(isRain && hasAmbrella )
+            //{
+            //    Console.WriteLine("protected");
+            //}
+
+            //else
+            //{
+            //    Console.WriteLine("not protected");
+            //}
+
+            int num1 = 10;
+            int num2 = 20;
+
+            if(num1 == num2)
             {
-                Console.WriteLine("protected");
+                Console.WriteLine("equal");
             }
-
             else
             {
-                Console.WriteLine("not protected");
+                Console.WriteLine("not");
             }
+
         }
     }
 }
