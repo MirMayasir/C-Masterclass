@@ -61,53 +61,109 @@ namespace Day2
             //}
 
 
-            string question1 = "What is the capital of India";
-            String answer1 = "Delhi";
+            //string question1 = "What is the capital of India";
+            //String answer1 = "Delhi";
 
-            string question2 = "What is the addition of 4+4";
-            int answer2 = 8;
+            //string question2 = "What is the addition of 4+4";
+            //int answer2 = 8;
 
-            string question3 = "Who is our PM";
-            string answer3 = "Modi";
+            //string question3 = "Who is our PM";
+            //string answer3 = "Modi";
 
-            int score = 0;
-            Console.WriteLine(question1);
-            string userAnswer1 = Console.ReadLine();
-            if(userAnswer1.Trim().ToLower() == answer1.ToLower())
+            //int score = 0;
+            //Console.WriteLine(question1);
+            //string userAnswer1 = Console.ReadLine();
+            //if(userAnswer1.Trim().ToLower() == answer1.ToLower())
+            //{
+            //    Console.WriteLine("correct");
+            //    score += 1;
+            //}
+            //else
+            //{
+            //    Console.WriteLine("opps wrong answer");
+            //}
+            //Console.WriteLine(question2);
+            //int userAnswer2 = int.Parse( Console.ReadLine());
+            //if (userAnswer2 == answer2)
+            //{
+            //    Console.WriteLine("correct");
+            //    score += 1;
+            //}
+            //else
+            //{
+            //    Console.WriteLine("opps wrong answer");
+            //}
+
+            //Console.WriteLine(question3);
+            //string userAnswer3 = Console.ReadLine();
+            //if (userAnswer3.Trim().ToLower() == answer3.ToLower()+)
+            //{
+            //    Console.WriteLine("correct");
+            //    score += 1;
+            //}
+            //else
+            //{
+            //    Console.WriteLine("opps wrong answer");
+            //}
+
+            //Console.WriteLine("your score is " + score);
+            //Random ram = new Random();
+            //int num = ram.Next(1,11);
+
+            //Console.WriteLine(num);
+
+            //Console.WriteLine("enter your number");
+            //int num2 = int.Parse(Console.ReadLine());
+
+            //if (num == num2)
+            //{
+            //    Console.WriteLine("you guessed it right");
+            //}
+
+            //else
+            //{
+            //    Console.WriteLine("You guessed it wrong");
+            //
+            //}
+
+            Console.WriteLine("Enter first number");
+            int num1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter second number");
+            int num2 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter your choice");
+            Console.WriteLine("1.Addition");
+            Console.WriteLine("2.Subtract");
+            Console.WriteLine("3.Multiply");
+            Console.WriteLine("4.Divide");
+
+            int choice = int.Parse(Console.ReadLine());
+            int result = 0;
+
+            switch (choice)
             {
-                Console.WriteLine("correct");
-                score += 1;
-            }
-            else
-            {
-                Console.WriteLine("opps wrong answer");
-            }
-            Console.WriteLine(question2);
-            int userAnswer2 = int.Parse( Console.ReadLine());
-            if (userAnswer2 == answer2)
-            {
-                Console.WriteLine("correct");
-                score += 1;
-            }
-            else
-            {
-                Console.WriteLine("opps wrong answer");
+                case 1:
+                    result = num1 + num2;
+                    break;
+
+                case 2:
+                    result = num1 - num2;
+                    break;
+
+                case 3:
+                    result = num1 * num2;
+                    break;
+
+                case 4:
+                    result = num1 / num2;
+                    break;
+                default:
+                    Console.WriteLine("wrong choice");
+                    break;
             }
 
-            Console.WriteLine(question3);
-            string userAnswer3 = Console.ReadLine();
-            if (userAnswer3.Trim().ToLower() == answer3.ToLower())
-            {
-                Console.WriteLine("correct");
-                score += 1;
-            }
-            else
-            {
-                Console.WriteLine("opps wrong answer");
-            }
-
-            Console.WriteLine("your score is " + score);
-            
+            Console.WriteLine(result);
 
         }
     }
