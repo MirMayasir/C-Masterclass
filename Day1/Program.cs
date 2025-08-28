@@ -81,6 +81,7 @@ namespace Day1
             string s1 = "Hello my name is \"mayasir\"";
             Console.WriteLine(s1);
             Console.WriteLine(@"Hello my name is ""mayasir""");
+            Console.WriteLine("Hello my name is \\mayasir\\");
 
         }
     }
