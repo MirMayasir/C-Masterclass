@@ -78,12 +78,14 @@ namespace Day1
 
             //Console.WriteLine("the number is {0} and seconf number is {1}" ,  num1, num2);
 
-            string s1 = "Hello my name is \"mayasir\"";
-            Console.WriteLine(s1);
-            Console.WriteLine(@"Hello my name is ""mayasir""");
-            Console.WriteLine("Hello my name is \\mayasir\\");
-            Console.WriteLine("Hello my name is \nmayasir");
+            // string s1 = "Hello my name is \"mayasir\"";
+            // Console.WriteLine(s1);
+            // Console.WriteLine(@"Hello my name is ""mayasir""");
+            // Console.WriteLine("Hello my name is \\mayasir\\");
+            // Console.WriteLine("Hello my name is \nmayasir");
             Console.WriteLine("Hello my name is \tmayasir");
+
+            Console.ReadLine();
 
         }
     }
