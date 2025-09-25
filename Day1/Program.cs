@@ -85,6 +85,7 @@ namespace Day1
             // Console.WriteLine("Hello my name is \nmayasir");
             Console.WriteLine("Hello my name is \tmayasir");
             Console.WriteLine("hello");
+            Console.WriteLine("world");
 
 
             Console.ReadLine();
