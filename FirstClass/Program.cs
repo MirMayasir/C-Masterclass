@@ -7,11 +7,8 @@
             Car audi = new Car("BMW");
             Console.WriteLine("Main executed");
 
-            Console.WriteLine("enter the model name");
 
-            audi.Model = Console.ReadLine();
-
-            Console.WriteLine("you entered " +  audi.Model);
+            audi.Drive();
 
             Console.ReadKey();
         }

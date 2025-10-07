@@ -25,5 +25,10 @@ namespace FirstClass
             Model = model;
             Console.WriteLine("I have a " + Model + "  car");
         }
+
+        public void Drive()
+        {
+            Console.WriteLine("Im driving " + _model);
+        }
     }
 }
